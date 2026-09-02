@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>As tuas aulas — GlowAI</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="lesson-page">
+
+<div class="ambient-bg"><span></span><span></span><span></span><span></span><span></span></div>
+
+<div class="wrap">
+  <div class="vip-header">
+    <div class="vip-brand"><span class="crown">👑</span> GlowAI</div>
+  </div>
+</div>
+
+<!-- Estado: a verificar pagamento -->
+<div class="wrap" id="state-loading">
+  <div class="state-box">
+    <div class="spinner"></div>
+    <p>A confirmar o teu pagamento…</p>
+  </div>
+</div>
+
+<!-- Estado: acesso negado -->
+<div class="wrap" id="state-denied" style="display:none;">
+  <div class="state-box">
+    <h3>Não encontrámos um pagamento válido</h3>
+    <p>Se acabaste de comprar e vês esta mensagem, espera alguns segundos e atualiza a página. Se o problema continuar, contacta-nos com o comprovativo da compra.</p>
+    <p style="margin-top:22px;"><a class="btn btn-primary" href="/">Voltar à página inicial</a></p>
+  </div>
+</div>
+
+<!-- Estado: acesso concedido -->
+<div class="wrap" id="state-ok" style="display:none;">
+  <div class="lesson-header">
+    <h1>As tuas aulas</h1>
+    <p>Bem-vindo(a)! Segue as aulas pela ordem para melhores resultados.</p>
+  </div>
+  <div class="lessons">
+    <article class="lesson">
+      <div>
+        <div class="num">Aula 01</div>
+        <h3>As ferramentas que uso</h3>
+        <p>Que apps e sites de IA uso para criar as transformações, e como preparar a conta antes de começar.</p>
+      </div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/SUBSTITUIR_ID_1" title="Aula 1" allowfullscreen></iframe>
+      </div>
+    </article>
+    <article class="lesson">
+      <div>
+        <div class="num">Aula 02</div>
+        <h3>Preparar a foto certa</h3>
+        <p>Que tipo de foto de partida funciona melhor, luz, ângulo e erros comuns a evitar.</p>
+      </div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/SUBSTITUIR_ID_2" title="Aula 2" allowfullscreen></iframe>
+      </div>
+    </article>
+    <article class="lesson">
+      <div>
+        <div class="num">Aula 03</div>
+        <h3>Criar o antes/depois</h3>
+        <p>O processo completo, do prompt ao resultado final, pronto para publicar no Instagram ou TikTok.</p>
+      </div>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/SUBSTITUIR_ID_3" title="Aula 3" allowfullscreen></iframe>
+      </div>
+    </article>
+  </div>
+</div>
+
+<script src="js/aulas.js"></script>
+</body>
+</html>

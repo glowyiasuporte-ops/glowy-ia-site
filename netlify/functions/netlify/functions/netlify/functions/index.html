@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlowAI — Aprende a criar as tuas fotos com IA</title>
+<meta name="description" content="Aprende, com aulas curtas, a criar transformações antes/depois com inteligência artificial. Acesso imediato após o pagamento.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="ambient-bg"><span></span><span></span><span></span><span></span><span></span></div>
+
+<div class="wrap">
+  <div class="vip-header">
+    <div class="vip-brand"><span class="crown">👑</span> GlowAI</div>
+    <a class="vip-badge" href="#preco">Acesso VIP</a>
+  </div>
+
+  <section class="hero">
+    <div>
+      <h1>As tuas fotos, <i>reinventadas</i> por inteligência artificial.</h1>
+      <p class="hero-sub">Ensino-te, passo a passo, a criar transformações antes/depois como as que vês nos meus vídeos — sem precisar de saber nada de edição ou de IA.</p>
+      <div class="hero-actions">
+        <a href="#preco" class="btn btn-primary">Quero aprender — 12,99€</a>
+        <span class="hero-price-note">Pagamento único · acesso imediato</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="images/hero.jpg" alt="Foto transformada com IA">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="como-funciona">
+    <div class="section-head">
+      <h2>Como funciona</h2>
+      <p>Três passos entre veres este site e teres a tua primeira foto transformada.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>Compras o acesso</h3>
+        <p>Pagamento seguro por cartão, processado pela Stripe. Recebes o acesso na hora, sem esperas.</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>Assistes às aulas</h3>
+        <p>Vídeos curtos e diretos: as ferramentas que uso, como preparar a foto e como obter o efeito antes/depois.</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>Crias as tuas próprias fotos</h3>
+        <p>Segues o método em qualquer foto tua e publicas o teu antes/depois no Instagram ou TikTok.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+<div class="wrap">
+  <section class="pricing" id="preco">
+    <div class="price-card">
+      <span class="tag">Acesso vitalício ao método para criares fotos incríveis com IA e teres um perfil impossível de ignorar</span>
+      <div class="price-value">12<sup>,99€</sup></div>
+      <p class="desc">Pagamento único. Sem subscrição.</p>
+      <ul class="price-list">
+        <li>Vídeo-aulas passo a passo</li>
+        <li>Acesso imediato após o pagamento</li>
+        <li>Vês quando quiseres, para sempre</li>
+        <li>Pagamento seguro por cartão (Stripe)</li>
+      </ul>
+    </div>
+
+    <div class="addons">
+      <label class="addon">
+        <div class="addon-top">
+          <span class="addon-title">Prompt Secreto</span>
+          <span class="addon-price">+4,99€</span>
+        </div>
+        <p class="addon-desc">Recebes o prompt pronto e a aula direta para criares fotos com postura, mistério e presença marcante.</p>
+        <span class="addon-check"><input type="checkbox" data-addon="confianca" data-price="4.99"> Adicionar ao meu pack</span>
+      </label>
+
+      <label class="addon">
+        <div class="addon-top">
+          <span class="addon-title">Menina de Luxo IA</span>
+          <span class="addon-price">+4,99€</span>
+        </div>
+        <p class="addon-desc">Um atalho para criares fotos femininas com estética de luxo, viagens e sofisticação — para um feed acima da média.</p>
+        <span class="addon-check"><input type="checkbox" data-addon="luxo" data-price="4.99"> Adicionar ao meu pack</span>
+      </label>
+    </div>
+
+    <div class="total-row">
+      <span>Total hoje</span>
+      <span id="total-value">12,99€</span>
+    </div>
+
+    <div class="price-card lead-card">
+      <h3 class="lead-title">Os teus dados</h3>
+      <p class="lead-sub">Para te enviarmos o acesso e podermos contactar-te se precisares de ajuda.</p>
+
+      <label class="field">
+        <span>Nome completo</span>
+        <input type="text" id="lead-nome" placeholder="O teu nome completo" autocomplete="name">
+      </label>
+      <label class="field">
+        <span>E-mail</span>
+        <input type="email" id="lead-email" placeholder="tu@email.com" autocomplete="email">
+      </label>
+      <label class="field">
+        <span>Telefone</span>
+        <input type="tel" id="lead-telefone" placeholder="912 345 678" autocomplete="tel">
+      </label>
+      <p id="lead-form-error">Preenche o nome, email e telefone para continuar.</p>
+
+      <button class="btn btn-primary" id="checkout-btn">Comprar acesso agora</button>
+      <p id="checkout-error"></p>
+    </div>
+
+    <p class="trust-note">Junta-te a quem já está a criar as suas transformações com IA — acesso liberado assim que o pagamento é confirmado.</p>
+
+    <div class="perks">
+      <div class="perk">
+        <div class="icon">⚡</div>
+        <span>Acesso imediato</span>
+      </div>
+      <div class="perk">
+        <div class="icon">🔄</div>
+        <span>Conteúdo atualizado</span>
+      </div>
+      <div class="perk">
+        <div class="icon">🎧</div>
+        <span>Suporte dedicado</span>
+      </div>
+      <div class="perk">
+        <div class="icon">🛡️</div>
+        <span>Pagamento seguro</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    GlowAI — © <span id="year"></span>. Todos os direitos reservados.
+  </footer>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
